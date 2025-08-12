@@ -7,6 +7,11 @@ import starlightThemeNova from "starlight-theme-nova";
 export default defineConfig({
   integrations: [
     starlight({
+      customCss: ["./src/styles/custom.css"],
+      favicon: "/favicon.png",
+      logo: {
+        src: "./src/assets/Purro_Icon_Dark.png",
+      },
       title: "Purro Docs",
       social: [
         {

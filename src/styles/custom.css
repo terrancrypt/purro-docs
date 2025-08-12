@@ -1,0 +1,88 @@
+/* Dark mode colors - Optimized for readability */
+:root {
+    --sl-color-accent-low: #003d2f;
+    /* Darker for better contrast */
+    --sl-color-accent: #00f7da;
+    /* Bright aqua - good visibility */
+    --sl-color-accent-high: #66fae8;
+    /* Lighter tint for highlights */
+
+    --sl-color-white: #ffffff;
+    /* Pure white for max contrast */
+    --sl-color-gray-1: #f1f5f6;
+    /* Very light gray */
+    --sl-color-gray-2: #d1dce0;
+    /* Light gray */
+    --sl-color-gray-3: #9cb0b7;
+    /* Medium gray */
+    --sl-color-gray-4: #5c7379;
+    /* Dark gray */
+    --sl-color-gray-5: #2a3b41;
+    /* Deep teal from palette */
+    --sl-color-gray-6: #1a2b30;
+    /* Darker background */
+    --sl-color-black: #0b221e;
+    /* Charcoal green from palette */
+}
+
+/* Light mode colors - Optimized for readability */
+:root[data-theme='light'] {
+    --sl-color-accent-low: #e6f9f6;
+    /* Very light teal background */
+    --sl-color-accent: #004236;
+    /* Deep teal - excellent contrast */
+    --sl-color-accent-high: #002a21;
+    /* Even darker for emphasis */
+
+    --sl-color-white: #0b221e;
+    /* Dark text for readability */
+    --sl-color-gray-1: #1a2b30;
+    /* Dark gray */
+    --sl-color-gray-2: #2a3b41;
+    /* Medium dark */
+    --sl-color-gray-3: #5c7379;
+    /* Medium gray */
+    --sl-color-gray-4: #9cb0b7;
+    /* Light gray */
+    --sl-color-gray-5: #d1dce0;
+    /* Very light */
+    --sl-color-gray-6: #f1f5f6;
+    /* Near white */
+    --sl-color-gray-7: #ffffff;
+    /* Pure white background */
+    --sl-color-black: #ffffff;
+    /* White background */
+}
+
+/* Additional utility colors for better UX */
+:root {
+    /* Success states */
+    --sl-color-success: #00b894;
+    --sl-color-success-bg: #e8f6f3;
+
+    /* Warning states */
+    --sl-color-warning: #fdcb6e;
+    --sl-color-warning-bg: #fef9e7;
+
+    /* Error states */
+    --sl-color-error: #e17055;
+    --sl-color-error-bg: #fdf2ef;
+
+    /* Code blocks */
+    --sl-color-code-bg: rgba(0, 66, 54, 0.1);
+    --sl-color-code-border: rgba(0, 247, 218, 0.2);
+}
+
+:root[data-theme='light'] {
+    --sl-color-success: #00a085;
+    --sl-color-success-bg: #f0fbf9;
+
+    --sl-color-warning: #e67e22;
+    --sl-color-warning-bg: #fdf6ec;
+
+    --sl-color-error: #d63031;
+    --sl-color-error-bg: #fdf2f2;
+
+    --sl-color-code-bg: rgba(0, 66, 54, 0.05);
+    --sl-color-code-border: rgba(0, 66, 54, 0.15);
+}
