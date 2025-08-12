@@ -7,15 +7,21 @@ import starlightThemeNova from "starlight-theme-nova";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Purro Docs",
       social: [
         {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          icon: "twitter",
+          label: "Twitter",
+          href: "https://twitter.com/purro_xyz",
         },
       ],
       sidebar: [
+        {
+          label: "Develop",
+          items: [
+            { label: "Extension Building", slug: "develop/extension-building" },
+          ],
+        },
         {
           label: "Guides",
           items: [
@@ -28,7 +34,6 @@ export default defineConfig({
           label: "Reference",
           autogenerate: { directory: "reference" },
         },
-    
       ],
       plugins: [starlightThemeNova()],
     }),
