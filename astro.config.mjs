@@ -2,10 +2,15 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightThemeNova from "starlight-theme-nova";
+import mermaid from "astro-mermaid";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
+    mermaid({
+      theme: "neutral",
+      autoTheme: true,
+    }),
     starlight({
       customCss: ["./src/styles/custom.css"],
       favicon: "/favicon.png",
@@ -22,9 +27,34 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Develop",
+          label: "Purro Extension",
           items: [
-            { label: "Extension Building", slug: "develop/extension-building" },
+            { label: "Features Building", slug: "extension/features-building" },
+            {
+              label: "Technical Architecture",
+              slug: "extension/technical-architecture",
+            },
+            {
+              label: "Provider System",
+              slug: "extension/provider-system",
+            },
+            {
+              label: "Data Flows and Interactions",
+              slug: "extension/data-flow",
+            },
+            {
+              label: "Keys and Storage",
+              slug: "extension/keys-and-storage",
+            },
+            {
+              label: "Security Model",
+              slug: "extension/security-model",
+            },
+            // { label: "API Reference", slug: "extension/api-reference" },
+            // { label: "FAQ", slug: "extension/faq" },
+            // { label: "Changelog", slug: "extension/changelog" },
+            // { label: "Contributing", slug: "extension/contributing" },
+            // { label: "License", slug: "extension/license" },
           ],
         },
         {
