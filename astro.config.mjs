@@ -27,43 +27,68 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Purro Extension",
+          label: "About",
           items: [
-            { label: "Features Building", slug: "extension/features-building" },
-            {
-              label: "Technical Architecture",
-              slug: "extension/technical-architecture",
-            },
-            {
-              label: "Provider System",
-              slug: "extension/provider-system",
-            },
-            {
-              label: "Data Flows and Interactions",
-              slug: "extension/data-flow",
-            },
-            {
-              label: "Keys and Storage",
-              slug: "extension/keys-and-storage",
-            },
-            {
-              label: "Security Model",
-              slug: "extension/security-model",
-            },
-            // { label: "API Reference", slug: "extension/api-reference" },
-            // { label: "FAQ", slug: "extension/faq" },
-            // { label: "Changelog", slug: "extension/changelog" },
-            // { label: "Contributing", slug: "extension/contributing" },
-            // { label: "License", slug: "extension/license" },
+            { label: "About Purro", slug: "about/overview" },
+            { label: "Contributors", slug: "about/contributors" },
           ],
         },
         {
-          label: "Guides",
+          label: "Wallet",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-            { label: "Getting Started", slug: "guides/getting-started" },
+            { label: "Overview", slug: "wallet/overview" },
+            { label: "Getting Started", slug: "wallet/getting-started" },
+            {
+              label: "Features",
+              items: [
+                {
+                  label: "Gasless Swaps & Bridging",
+                  slug: "wallet/gasless-swaps-bridging",
+                },
+                { label: "Name Transfers", slug: "wallet/hyper-names" },
+                { label: "Rebates", slug: "wallet/rebates" },
+                { label: "NFT & Identity", slug: "wallet/nft-identity" },
+                { label: "Smart Wallet (AA)", slug: "wallet/smart-wallet" },
+              ],
+            },
           ],
+        },
+        {
+          label: "Developers",
+          items: [
+            { label: "Wallet SDK & Provider", slug: "wallet/developer-sdk" },
+            {
+              label: "Extension",
+              items: [
+                {
+                  label: "Feature Overview",
+                  slug: "extension/features-building",
+                },
+                {
+                  label: "Technical Architecture",
+                  slug: "extension/technical-architecture",
+                },
+                { label: "Provider System", slug: "extension/provider-system" },
+                {
+                  label: "Data Flows & Interactions",
+                  slug: "extension/data-flow",
+                },
+                { label: "Keys & Storage", slug: "extension/keys-and-storage" },
+                { label: "Security Model", slug: "extension/security-model" },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Security",
+          items: [
+            { label: "Security Design", slug: "wallet/security" },
+            { label: "Audit & Compliance", slug: "wallet/audit-compliance" },
+          ],
+        },
+        {
+          label: "Roadmap",
+          items: [{ label: "Roadmap", slug: "wallet/roadmap" }],
         },
         {
           label: "Reference",
