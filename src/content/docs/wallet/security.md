@@ -21,4 +21,12 @@ Purro’s security model balances strong guarantees with practical UX.
 ## Safe Signing
 - EIP‑712 typed signing preferred
 - Pre-signing review with human‑readable context
-- Guardrails for gas parameters and malformed transactions 
+- Guardrails for gas parameters and malformed transactions
+
+## Risks & Disclaimer
+- Informational only; not legal/financial advice
+- Non-custodial: users control keys; team cannot recover seeds or funds
+- Features and timelines may change; third-party dependencies can affect delivery
+- Users are responsible for secure backups and device hygiene
+
+> Developer deep dive on key security and code references: see Extension › Security Model. 

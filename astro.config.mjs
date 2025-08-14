@@ -6,6 +6,7 @@ import mermaid from "astro-mermaid";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://docs.purro.xyz",
   integrations: [
     mermaid({
       theme: "neutral",
@@ -75,6 +76,10 @@ export default defineConfig({
                 },
                 { label: "Keys & Storage", slug: "extension/keys-and-storage" },
                 { label: "Security Model", slug: "extension/security-model" },
+                {
+                  label: "Security Checklist",
+                  slug: "extension/security-checklist",
+                },
               ],
             },
           ],
@@ -83,6 +88,7 @@ export default defineConfig({
           label: "Security",
           items: [
             { label: "Security Design", slug: "wallet/security" },
+
             { label: "Audit & Compliance", slug: "wallet/audit-compliance" },
           ],
         },

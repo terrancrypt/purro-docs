@@ -17,7 +17,3 @@ RebateAmount = SwapFeePaid × BoostRate
 
 - BoostRate: 0.40 (default) or 0.50 (boost)
 - Distribution is proportional to eligible usage and may be capped per wallet
-
-Funding: Rebates are budgeted from the Community Incentives allocation and may adjust by epoch.
-
-Note: Program terms can evolve; check release notes for current parameters. 

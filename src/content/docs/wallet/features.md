@@ -18,4 +18,12 @@ description: A focused list of wallet capabilities for users and builders.
 
 ## Infrastructure
 - Powered by Alchemy for reliable transactions and monitoring
-- Designed for performance, availability, and observability 
+- Designed for performance, availability, and observability
+
+## Fee Rebates
+- Default: 40% swap fee rebates for all users in early phase
+- Boost: 50% tier by invite/eligibility (partners, builders, high-volume)
+
+## Built for Hyper
+- Depth over breadth: Hyper-native UX first; multichain-ready by design
+- Identity integration and contextual signatures 
