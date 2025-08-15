@@ -8,7 +8,7 @@ Purro is a native-first, multichain-ready wallet designed for the Hyperliquid an
 - Optimized for Hyperliquid and HyperEVM from day one
 - Gasless, intent-aware user flows (swaps, bridging)
 - Human-readable signing with EIP-712
-- Built-in identity via Hyperliquid Names (e.g., `@user.purro`)
+- Built-in identity via Hyperliquid Names (e.g., `purro.hl`)
 - Developer-first SDKs and EVM provider compatibility
 
 Purro provides a consistent, fast, and safe experience for traders, builders, and power users—without requiring manual gas management or network juggling. 

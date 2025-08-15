@@ -24,7 +24,7 @@ This guide helps you start using Purro Wallet with core actions.
 - Gas handling is abstracted when supported
 
 ## 5) Send via Name
-- Enter a Hyperliquid Name (e.g., `@trader.purro`) or address
+- Enter a Hyperliquid Name (e.g., `purro.hl`) or address
 - Verify resolved recipient and confirm
 
 Tips:

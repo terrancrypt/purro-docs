@@ -7,7 +7,7 @@ description: A focused list of wallet capabilities for users and builders.
 - Unified portfolio across Hyperliquid L1 and HyperEVM
 - Gasless swaps backed by native relayers (no HYPE needed)
 - One-click bridging between Hyperliquid and HyperEVM
-- Send and receive using Hyperliquid Names (e.g., `@name.purro`)
+- Send and receive using Hyperliquid Names (e.g., `purro.hl`)
 - Built-in swap, bridge, send/receive in a single interface
 
 ## Developer Features

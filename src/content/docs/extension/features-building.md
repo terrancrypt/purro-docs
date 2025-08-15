@@ -177,7 +177,7 @@ description: Purro Extension Features Building
 - [x] **Cross-chain portfolio** - Unified view across networks
 
 #### Hyperliquid Names Transfers
-- [x] **@names support** - HL Names API integration
+- [x] **.hl names support** - HL Names API integration
 - [x] **Human-readable transfers** - Names displayed in transaction history
 
 #### Developer-First Architecture
