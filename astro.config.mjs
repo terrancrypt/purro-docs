@@ -25,6 +25,11 @@ export default defineConfig({
           label: "Twitter",
           href: "https://twitter.com/purro_xyz",
         },
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/terrancrypt/purro-extension",
+        },
       ],
       sidebar: [
         {

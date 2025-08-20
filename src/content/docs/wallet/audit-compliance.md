@@ -10,8 +10,9 @@ description: Security reviews, open-source posture, and responsible disclosure.
 - Post‑launch monitoring and hotfix releases
 
 ## Open Source
-- Core extension planned for open-source (MIT/Apache-2.0)
-- Public review of sensitive logic and developer contributions welcomed
+- The extension repository is public: [terrancrypt/purro-extension](https://github.com/terrancrypt/purro-extension)
+- Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+- Public review of security‑sensitive logic and community contributions via issues/PRs
 - Versioned API docs and SDK references maintained
 
 ## Compliance Posture

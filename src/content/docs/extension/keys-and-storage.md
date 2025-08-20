@@ -1,5 +1,6 @@
 ---
 title: Keys and Storage
+description: Key derivation, encryption, and persistence mechanics.
 ---
 
 ## Wallet Creation and Import
@@ -22,11 +23,6 @@ title: Keys and Storage
 1) On first password setup → store password hash + salt
 2) On unlock/import password → create offscreen session with `expiresAt`
 3) When sensitive data is needed → fetch password from offscreen session
-4) Decrypt using PBKDF2 (≥ 600k iterations) + AES-256-GCM (16B nonce, 16B tag)
-5) After use, clear temporary material and honor session timeout
-
-## Safety Policies
-- Never persist seed/private keys in plaintext
-- Enforce data size limits and validate all inputs
-- Offscreen + Chrome alarms for session control and auto-lock
-- Explicit UI confirmations before exporting seed/private keys 
+4) Derive per-record keys with PBKDF2 and random salt
+5) Encrypt using AES‑256‑GCM with random nonce; store `{ciphertext, salt, nonce}`
+6) Zeroize sensitive memory after use 

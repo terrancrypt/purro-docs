@@ -11,15 +11,15 @@ description: Phased delivery across UX, chains, mobile, and smart wallet feature
 - Initial Purro SDK for developers
 
 ## Phase 2 — Coming Soon (Q4 2025)
-- Add Solana and Sui support
 - NFT features: rendering, seasonal drops, trait-based benefits
 - DeFi: staking, LP/AMMs, DEX trackers, unified portfolio
 - Mobile apps (iOS/Android) + cross-platform continuity
 - Onboarding improvements: gasless flows, embedded access
-- Identity: handles, badges, profiles
+- Identity with HL Names: handles, badges, profiles
 
 ## Phase 3 — Future (2026+)
 - Hardware wallets
+- Add Solana and Sui support
 - Smart Wallet module (EIP-4337): batching, paymasters, social recovery
 - Advanced trading: native spot/perp, strategies, previews
 - Analytics: portfolio dashboards, fee/rebate stats
